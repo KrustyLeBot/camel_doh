@@ -1,0 +1,57 @@
+==9 nodes to create==
+
+0 - Power Station
+v 0
+
+1 - PokFuLam
+v 1
+
+2 - Aberdeen
+v 2
+
+3 - Repulse Bay
+v 3
+
+4 - Western
+v 4
+
+5 - Happy Valley
+v 5
+
+6 - Central
+v 6
+
+7 - WanChai
+v 7
+
+8 - NorthPoint
+v 8
+
+
+
+==17 arc to create==
+
+e "30" 0 1
+e "50" 0 2
+e "40" 0 3
+
+e "10" 1 4
+e "20" 1 6
+e "20" 1 2
+
+e "20" 2 1
+e "20" 2 3
+e "40" 2 5
+
+e "20" 3 2
+e "40" 3 8
+
+e "5" 4 6
+
+e "15" 5 6
+e "25" 5 7
+
+e "15" 6 5
+e "15" 6 7
+
+e "20" 8 7
